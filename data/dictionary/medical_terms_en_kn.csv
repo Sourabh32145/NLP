@@ -1,0 +1,34 @@
+english_term,kannada_term,category,icd_code
+Type 2 Diabetes,ಟೈಪ್ 2 ಮಧುಮೇಹ,Disease,E11
+Hypertension,ಅಧಿಕ ರಕ್ತದೊತ್ತಡ,Disease,I10
+Discharge,ಬಿಡುಗಡೆ,Administrative,
+Prescription,ಔಷಧ ಚೀಟಿ,Administrative,
+Fever,ಜ್ವರ,Symptom,R50.9
+Headache,ತಲೆನೋವು,Symptom,R51.9
+Asthma,ಉಬ್ಬಸ,Disease,J45
+Cough,ಕೆಮ್ಮು,Symptom,R05
+Chest Pain,ಎದೆ ನೋವು,Symptom,R07.9
+Myocardial Infarction,ಹೃದಯಾಘಾತ,Disease,I21
+Kidney Stone,ಕಿಡ್ನಿ ಕಲ್ಲು,Disease,N20.0
+Pneumonia,ನ್ಯುಮೋನಿಯಾ,Disease,J18.9
+Allergy,ಅಲರ್ಜಿ,Symptom,T78.4
+Fracture,ಮೂಳೆ ಮುರಿತ,Injury,T14.2
+Infection,ಸೋಂಕು,Disease,B99.9
+Anemia,ರಕ್ತಹೀನತೆ,Disease,D64.9
+Insomnia,ನಿದ್ರಾಹೀನತೆ,Symptom,G47.0
+Diarrhea,ಅತಿಸಾರ,Symptom,A09
+Vomiting,ವಾಂತಿ,Symptom,R11.10
+Arthritis,ಸಂಧಿವಾತ,Disease,M19.9
+Stroke,ಪಾರ್ಶ್ವವಾಯು,Disease,I63
+Cancer,ಕ್ಯಾನ್ಸರ್,Disease,C80.1
+Thyroid,ಥೈರಾಯ್ಡ್,Disease,E03.9
+Obesity,ಬಾಲ್ಯದ ಸ್ಥೂಲಕಾಯತೆ,Disease,E66.9
+Fatigue,ಆಯಾಸ,Symptom,R53.83
+Nausea,ವಾಕರಿಕೆ,Symptom,R11.0
+Dizziness,ತಲೆಸುತ್ತು,Symptom,R42
+Antibiotic,ಪ್ರತಿಜೀವಕ,Medication,
+Vaccine,ಲಸಿಕೆ,Medication,
+Aspirin,ಆಸ್ಪಿರಿನ್,Medication,
+Paracetamol,ಪ್ಯಾರಸಿಟಮಾಲ್,Medication,
+Insulin,ಇನ್ಸುಲಿನ್,Medication,
+Lung,ಶ್ವಾಸಕೋಶ,Body Part,

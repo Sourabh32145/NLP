@@ -1,0 +1,35 @@
+project:
+  name: "Bilingual Clinical Summarizer"
+  version: "1.0.0"
+
+paths:
+  raw_data_dir: "nlp-healthcare/data/raw"
+  processed_data_dir: "nlp-healthcare/data/processed"
+  dictionary_dir: "nlp-healthcare/data/dictionary"
+  dictionary_file: "nlp-healthcare/data/dictionary/medical_terms_en_kn.csv"
+  models_dir: "nlp-healthcare/models"
+
+models:
+  ner:
+    base_model: "emilyalsentzer/Bio_ClinicalBERT"
+    lora:
+      r: 16
+      alpha: 32
+      dropout: 0.1
+      target_modules: ["query", "value"]
+  
+  summarizer:
+    base_model: "microsoft/BioGPT"
+    lora:
+      r: 8
+      alpha: 16
+      dropout: 0.05
+      target_modules: ["q_proj", "v_proj"]
+
+  translation:
+    en_to_indic: "ai4bharat/indictrans2-en-indic-200m"
+    indic_to_en: "ai4bharat/indictrans2-indic-en-200m"
+
+translation_languages:
+  source: "eng_Latn"
+  target: "kan_Knda"
